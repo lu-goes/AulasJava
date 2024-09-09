@@ -9,9 +9,19 @@ public class Aula4{
         Scanner lendoNumero = new Scanner(System.in);
 
         final int sorteio = aleatorio.nextInt(10);
-        System.out.println("Digite um valor para jogar");
 
+        System.out.println("Digite um valor para jogar");
         int numeroDoUsuario = lendoNumero.nextInt();
+        System.out.println(numeroDoUsuario==sorteio);
+
+        System.out.println("Digite um valor para jogar");
+        numeroDoUsuario = lendoNumero.nextInt();
+        System.out.println(numeroDoUsuario==sorteio);
+
+        System.out.println("Digite um valor para jogar");
+        numeroDoUsuario = lendoNumero.nextInt();
+        System.out.println(numeroDoUsuario==sorteio);
+        
         System.out.println("Numero aleatorio: " + sorteio + " Numero digitado: " + numeroDoUsuario);
 
         lendoNumero.close();
