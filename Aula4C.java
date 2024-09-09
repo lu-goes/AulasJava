@@ -41,5 +41,7 @@ public class Aula4C {
         teste = resultado >= 5;
         System.out.println(teste);
 
+        // Crie um programa em java que leia o nome do aluno e suas 5 notas e ao final retorne sua média
+
     }
 }
