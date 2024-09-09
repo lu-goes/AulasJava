@@ -2,9 +2,6 @@ public class Aula4C {
     public static void main(String[] args) {
         int numeroNaoQuebrado = 10;
         double numeroQuebrado = 7.3;
-        //char letra;
-        //String texto;
-        //boolean teste;
 
         // Calculos
         // soma
@@ -23,6 +20,26 @@ public class Aula4C {
         resultado = numeroQuebrado / numeroNaoQuebrado;
         System.out.println(resultado);
 
+        // variáveis de texto
+
+        char letra;
+        String texto;
+        boolean teste;
+
+        letra = 'A';
+        texto = "ABC - ABCdario";
+
+        System.out.println(texto.charAt(4));
+        System.out.println(texto+texto+texto);
+
+        teste = letra =='A';
+        System.out.println(teste);
+        teste = resultado > 1;
+        System.out.println(teste);
+        teste = resultado < 10; 
+        System.out.println(teste);
+        teste = resultado >= 5;
+        System.out.println(teste);
 
     }
 }
