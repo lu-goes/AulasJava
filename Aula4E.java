@@ -25,18 +25,6 @@ public class Aula4E {
 
         System.out.println(media);
 
-        // 2) Calcule a soma das médias dos 5 estudantes e, ao final, retorne essa soma e os nomes dos estudantes.
-
-        String aluno1 = sc.nextLine();
-        String aluno2 = sc.nextLine();
-        String aluno3 = sc.nextLine();
-        String aluno4 = sc.nextLine();
-        String aluno5 = sc.nextLine();
-
-        
-
-
-
         sc.close();
     }
 }
