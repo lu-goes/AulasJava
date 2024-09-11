@@ -31,7 +31,7 @@ public class Aula5J{
             System.out.println("Digite novamente: ");
             numero = leitura.nextInt();
             pontuacao = pontuacao - 10;
-            System.out.println("Errou, você está com " + pontuacao + " pontos");
+            System.out.println("Perdeu, você está com " + pontuacao + " pontos");
         
         }
         
