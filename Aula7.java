@@ -31,6 +31,7 @@ public class Aula7{
     
         }
         
+        System.out.println("Você perdeu!");
         leitura.close();
 
     }
