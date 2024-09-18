@@ -22,6 +22,7 @@ public class Aula6{
 
         } else {
             System.out.println("Você acertou com " + pontuacao +" pontos");
+            leitura.close();
             return;
         }
 
