@@ -23,6 +23,13 @@ public class Exercicios2309 {
 
         // 4) Crie um programa em Java que imprima apenas os múltiplos de 3 e 7, até 100 vezes.
 
+        for (int i = 7; i <= 100; i++) {
+            if (i % 3 ==0 || i % 7 == 0) {
+                System.out.println(i);
+            }
+            
+        }
+
         // 5) Faça um algoritmo para ler 50 números e armazenar em um vetor VET, 
         //verificar e escrever se existem números repetidos no vetor VET e em que posições se encontram.
 

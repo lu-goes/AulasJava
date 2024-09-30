@@ -126,6 +126,8 @@ public class Exercicio1809A {
 
         //8) Desenvolva um sistema que leia a quantidade de produtos e o valor unitário, retornando o valor total.
 
+        // 9)Implemente um programa que some valores inseridos pelo usuário até que ele digite 0, parando de rodar o programa.
+
 
 
         sc.close();
