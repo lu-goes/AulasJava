@@ -5,6 +5,7 @@ public class Aula10 {
         Scanner leitura = new Scanner(System.in);
         FabricaCarro carro = new FabricaCarro();
         System.out.println(carro.nome);
+        carro.andar();
 
         leitura.close();
         
